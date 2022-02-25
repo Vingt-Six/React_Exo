@@ -1,0 +1,25 @@
+.card4 {
+    border: 2px gray solid;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card4 h1:hover {
+    transform: scale(3);
+    transition: 0.5s;
+}
+
+.card4 p:hover {
+    transform: scale(3);
+    transition: 0.5s;
+}
+
+.card4 input:hover {
+    transform: scale(3);
+    transition: 0.5s;
+}

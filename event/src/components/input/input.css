@@ -1,0 +1,16 @@
+.card2 {
+    border: 2px gray solid;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    filter: blur(5px);
+    transition: 0.5s;
+}
+
+.card2:hover {
+    filter: blur(0);
+    transition: 0.5s;
+}

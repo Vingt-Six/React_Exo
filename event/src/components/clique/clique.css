@@ -1,0 +1,28 @@
+.card1 {
+    border: 2px gray solid;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30%;
+}
+
+.btn button {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn button:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}

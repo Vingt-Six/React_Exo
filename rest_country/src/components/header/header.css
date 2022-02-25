@@ -1,0 +1,55 @@
+.search {
+    display: flex;
+    background-color: white;
+    width: 25%;
+    padding-inline: 2%;
+    border-radius: 10px;
+}
+
+.searchDark {
+    display: flex;
+    background-color: #2C3643;
+    width: 25%;
+    padding-inline: 2%;
+    border-radius: 10px;
+}
+
+.searchNav {
+    margin: 5% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inSearch {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+}
+
+.inSearchDark {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+.searchNav input:focus {
+    outline: 0;
+}
+
+.ftAwesome {
+    margin-right: 6%;
+    color: gray;
+}
+
+select {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: 0;
+}

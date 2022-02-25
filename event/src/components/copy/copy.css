@@ -1,0 +1,16 @@
+.card3 {
+    border: 2px gray solid;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.card3:hover {
+    transform: rotate(0deg);
+    transition: 0.5;
+}

@@ -1,0 +1,83 @@
+.imgtriangle{
+    margin-inline: auto;
+    margin-top: 11.5%;
+    width: 20%;
+}
+
+.imgpaper {
+    width: 150px;
+    height: 150px;
+    border: solid #516DF4 25px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 480px;
+    top: 32%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.imgpaper:hover {
+    border-color: #93a5ff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imgpaper img {
+    width: 45%;
+}
+
+.imgscissors {
+    width: 150px;
+    height: 150px;
+    border: solid #EAA61D 25px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 770px;
+    top: 32%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.imgscissors:hover {
+    border-color: #ffdb93;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imgscissors img {
+    width: 45%;
+}
+
+.imgrock {
+    width: 150px;
+    height: 150px;
+    border: solid #DF405C 25px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 625px;
+    top: 63%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.imgrock:hover {
+    border-color: #ff94a7;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imgrock img {
+    width: 45%;
+}

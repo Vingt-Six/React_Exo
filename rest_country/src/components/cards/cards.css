@@ -1,0 +1,55 @@
+.laCarte {
+    margin-bottom: 5%;
+}
+
+.carte {
+    width: 280px;
+    height: 100%;
+    box-shadow: 0px 3px 10px rgb(36, 36, 36);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carte:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.carte img {
+    width: 100%;
+    height: 190px;
+}
+
+.botcard {
+    margin-top: -1%;
+    padding-inline: 5%;
+    background-color: white;
+    color: black;
+}
+
+.botcardDark {
+    margin-top: -1%;
+    padding-inline: 5%;
+    background-color: #2C3743;
+    color: white;
+}
+
+.titlepays {
+    margin: 0;
+    padding-top: 5%;
+}
+
+.reste {
+    margin-inline: 10%;
+}
+
+.reste span {
+    font-weight: 700;
+}
+
+.cap {
+    margin-bottom: 0;
+    padding-bottom: 8%;
+}

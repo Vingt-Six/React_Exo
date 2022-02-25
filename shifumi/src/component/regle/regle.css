@@ -1,0 +1,53 @@
+.btnRules p {
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+.modalRules {
+    background-color: rgba(0, 0, 0, 0.568);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partRules {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.lesRegles {
+    width: 80%;
+    margin-top: 5%;
+    margin-inline: auto;
+}
+
+.partClose {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 7%;
+}
+
+.partClose img {
+    width: 20px;
+    height: 20px;
+    margin-top: 7%;
+    cursor: pointer;
+}

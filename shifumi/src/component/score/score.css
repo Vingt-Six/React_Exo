@@ -1,0 +1,33 @@
+.leScore {
+    border: 2px solid white;
+    width: 45%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding-inline: 1%;
+    margin-inline: auto;
+    margin-top: 2%;
+}
+
+.partScore {
+    width: 160px;
+    height: 130px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.partScore h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #555168;
+    margin-top: 10px;
+}
+
+.partScore h3 {
+    color: #384DAC;
+    margin: 0;
+    margin-top: 20px;
+}

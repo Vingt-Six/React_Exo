@@ -1,0 +1,40 @@
+.allFight {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-inline: 15%;
+    margin-top: 5%;
+    color: white;
+}
+
+.partYouPick {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.partIApick {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.allFight h1 {
+    margin-bottom: 25%;
+}
+
+.shishi{
+    width: 150px;
+    height: 150px;
+    border: solid #516DF4 25px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 480px;
+    top: 32%;
+    cursor: pointer;
+}

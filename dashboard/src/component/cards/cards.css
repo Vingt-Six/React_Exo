@@ -1,0 +1,88 @@
+:root {
+    --work: #ff8b64;
+    --exercise: #4bcf83;
+    --play: #56c2e6;
+    --social: #7235d2;
+    --study: #ff5e7d;
+    --self-care: #f1c75b;
+}
+
+.bgun {
+    background-color: var(--work);
+}
+
+.bgdeux {
+    background-color: var(--play);
+}
+
+.bgtrois {
+    background-color: var(--study);
+}
+
+.bgquatre {
+    background-color: var(--exercise);
+}
+
+.bgcinq {
+    background-color: var(--social);
+}
+
+.bgsix {
+    background-color: var(--self-care);
+}
+
+.divcardsimg {
+    width: 250px;
+    height: 230px;
+    margin-bottom: 33px;
+    margin-right: 25px;
+    border-radius: 20px 20px 25px 25px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.divcardsimg:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+svg {
+    margin-left: 63%;
+    z-index: 0;
+}
+
+.thecards {
+    height: 190px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #1d204b;
+    margin-top: -6px;
+    z-index: 1;
+    position: absolute; 
+}
+
+.namecards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.trepoint {
+    font-size: 25px;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.thecards h1 {
+    font-size: 52px;
+    font-weight: 200;
+    margin-left: 13%;
+    margin-top: 4%;
+}
+
+.lastW {
+    margin-top: -12%;
+    margin-left: 13%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.322);
+}

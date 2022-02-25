@@ -1,0 +1,50 @@
+.App {
+    background-color: #FAFAFA;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.AppDark {
+    background-color: #212C36;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.allCards {
+    display: flex;
+    margin-inline: 2%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.topPage {
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 3px 10px rgb(163, 163, 163);
+    background-color: white;
+    color: black;
+}
+
+.topPageDark {
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 3px 10px rgb(34, 34, 34);
+    background-color: #2C3643;
+    color: white;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5%;
+}
+
+.head p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.lesPays {
+    display: none;
+}

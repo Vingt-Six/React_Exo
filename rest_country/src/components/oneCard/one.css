@@ -1,0 +1,33 @@
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 5%;
+}
+
+.cardImgInfo {
+    width: 40%;
+}
+
+.cardImgInfo img{
+    width: 100%;
+}
+
+.oneInfo {
+    width: 40%;
+}
+
+.listInfo {
+    display: flex;
+}
+
+.listInfo li {
+    list-style-type: none;
+}
+
+.listInfo span {
+    font-weight: 700;
+}
+
+.rien {
+    display: none;
+}
